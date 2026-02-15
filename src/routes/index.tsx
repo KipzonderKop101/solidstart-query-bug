@@ -1,6 +1,7 @@
 import { A } from "@solidjs/router";
 import { ErrorBoundary, JSX, Suspense } from "solid-js";
 
+// Route to the secondary page using client-side routing.
 export default function Home(): JSX.Element {
   return (
     <Suspense>

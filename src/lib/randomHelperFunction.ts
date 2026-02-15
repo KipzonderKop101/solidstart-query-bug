@@ -1,3 +1,7 @@
+/**
+ * This helper function is designed to fail. It should only run on the server, since it's NEVER imported on the client.
+ * @returns
+ */
 export const randomHelperFunction = async () => {
   console.log("This should only show on the server!");
 
